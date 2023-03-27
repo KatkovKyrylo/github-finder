@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#text-logo {
+    transition: .3s;
+}
+
+#text-logo:hover {
+    color:rgb(134, 133, 133);
+}
+
+.custom-card-image .card.image-full:before {
+    border-radius: 0.5rem;
+    opacity: 0.45;
+}
+
+.card-transition {
+    transition: .3s;
+}
